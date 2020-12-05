@@ -1,1 +1,5 @@
-*.tar.gz
+*
+/**/*
+!/package.json
+!/preinstall.js
+!/.gitignore
