@@ -1,8 +1,8 @@
 {
   "name": "@inst/vscode-linux-x64",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "VSCode binary deployment for Linux.x64 v1.51.1",
-  "os": ["win32"],
+  "os": ["linux"],
   "cpu": ["x64"],
   "scripts": {
     "preinstall": "node preinstall.js",
