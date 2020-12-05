@@ -1,13 +1,13 @@
 {
   "name": "@inst/vscode-win32-x86",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "description": "VSCode binary deployment for Win32.x86 v1.51.1",
   "os": ["win32"],
   "cpu": ["x86"],
   "scripts": {
-    "preinstall": "preinstall.js",
-    "prepare": "preinstall.js",
-    "prepublish": "preinstall.js",
+    "preinstall": "node preinstall.js",
+    "prepare": "node preinstall.js",
+    "prepublish": "node preinstall.js",
     "start": "./Code.exe"
   },
   "bin": {
