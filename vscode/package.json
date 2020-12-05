@@ -1,0 +1,19 @@
+{
+  "name": "@inst/vscode",
+  "version": "0.1.0",
+  "description": "VSCode binary deployment",
+  "main": "code.js",
+  "scripts": {
+    "start": "./code.js"
+  },
+  "optionalDependencies": {
+    "@inst/vscode-linux-x64": "0.0.14",
+    "@inst/vscode-win32-x64": "0.0.14"
+  },
+  "keywords": [
+    "vscode",
+    "Visual Studio Code"
+  ],
+  "author": "Oleg Mihailik, using VSCode project from Microsoft",
+  "license": "ISC"
+}
